@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Contato</title>
+
+    <!-- Google Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link href="assets/css/estilo.css" rel="stylesheet">
+    <link href="assets/css/contato.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Cabeçalho ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container">
+
+            <div class="logo float-left">
+
+                <h1 class="text-light">
+                    <a href="index.html">
+                        <img src="assets/img/casa-logo.png" href="index.html" alt="logo" class="text-light">
+                        <span>NH</span>
+                    </a>
+                </h1>
+            </div>
+
+            <nav class="nav-menu float-right d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="cards.html">Comércio Local</a></li>
+                    <li class="active"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+
+
+        <!-- ======================Formulário de contato================ -->
+
+        <!-- Section Form -->
+        <section id="form" class="form-contato">
+            <div class="container-fluid">
+
+                <h2 class="page-header">Formulário de cadastro</h2>
+                <hr />
+                <br>
+                <form action=".html">
+                    <!-- dados pessoais -->
+                    <h3 class="page-header">Dados pessoais</h3>
+                    <div class="grid-container-1">
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Nome completo</label>
+                            <input type="text" class="form-control" id="nome-pessoal" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control" id="email-pessoal" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Telefone</label>
+                            <input type="tel" class="form-control" size="1" id="telefone" placeholder="(xx)xxxx-xxxx" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">CNPJ</label>
+                            <input type="text" class="form-control" size="1" id="cnpj" placeholder="__.__.___/___-__" required>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- dados da empresa -->
+                    <h3 class="page-header">Dados da empresa</h3>
+                    <div class="grid-container-2">
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Nome da empresa</label>
+                            <input type="text" class="form-control" id="nome-empresa1" placeholder="Digite o nome" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Endereço</label>
+                            <input type="text" class="form-control" id="endereco-rua" placeholder="Nome da rua" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Cep</label>
+                            <input type="number" class="form-control" id="cep-empresa" placeholder="Digite o cep da empresa" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Número</label>
+                            <input type="number" class="form-control" id="numero-empresa" placeholder="Digite o número" required>
+                        </div>
+                    </div>
+
+                    <div class="grid-container-3">
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Telefone empresa</label>
+                            <input type="tel" class="form-control" id="telefone-empresa" placeholder="Digite o telefone" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Mídia social 1</label>
+                            <input type="url" class="form-control" id="midia-1" placeholder="facebook.com.br/nome">
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Mídia social 2</label>
+                            <input type="url" class="form-control" id="midia-2" placeholder="@instagram">
+                        </div>
+                    </div>
+
+                    <div class="grid-container-4">
+                        <div class="grid-item">
+                            <label for="escolaridade">Tipo de cadastro</label><br>
+                            <select name="escolaridade" id="tipo-cadastro" required>
+                                <option value="Selecione">Novo cadastro</option>
+                                <option value="Selecione">Atualizar dados</option>
+                            </select>
+                        </div>
+                        <div class="grid-item">
+                            <div id="imagem">
+                                <label for="exampleInputFile">Selecionar imagem</label><br>
+                                <input type="file" size="35" required>
+                                <small id="fileHelp" class="form-text text-muted">* Selecione uma imagem de sua empresa para o seu card</small>
+                            </div>
+                        </div>
+
+                        <div class="grid-item">
+                            <label for="horarios">Horários de atendimento</label>
+                            <textarea class="form-control" id="horarios" cols="40" rows="9" placeholder="Escreva os horarios de atendimento" required></textarea>
+                        </div>
+                        <div class="grid-item">
+                            <label for="exampleInputEmail1">Dias de atendimento</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Segunda</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox1">Terça</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox1">Quarta</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option4">
+                                <label class="form-check-label" for="inlineCheckbox1">Quinta</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option5">
+                                <label class="form-check-label" for="inlineCheckbox1">Sexta</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option6">
+                                <label class="form-check-label" for="inlineCheckbox1">Sábado</label>
+                            </div>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option7">
+                                <label class="form-check-label" for="inlineCheckbox1">Domingo</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="grid-container">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <input type="reset" class="btn btn-primary" value="Limpar Campos" class="botao">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="check-termo" value="option8" required>
+                                <label class="form-check-label" for="inlineCheckbox8">Aceitar os 
+                          
+                                    <a class="termos" href="#trigger" id="trigger">Termos de Uso</a>
+                                    <div id="overlay">
+                                       <div id="popup">
+                                          <div id="close">X</div>
+                                          <h1>Termos de Uso</h1>
+                                          <p>Ao utilizar os nossos serviçoes e ferramentas, você esta aceitando o nosso <strong>Termo de Uso:</strong></p>
+                                          <p>Ao utilizar a aplicação, mesmo que parcial ou a título de teste, 
+                                              o usuário estará vinculado aos termos de serviço aqui descritos, concordando com os mesmos. 
+                                              Em caso de discordância dos termos aqui apresentados, a utilização da aplicação deve ser imediatamente interrompida.</p>
+                                          <p><strong>1. Do acesso dos usuários</strong>
+                                            <br>
+                                            Serão utilizadas todas as soluções técnicas a disposição do responsável pela plataforma para permitir o 
+                                            acesso 24 horas/ 7dias por semana. No entanto, a navegação na plataforma ou em alguma de suas páginas poderá ser 
+                                            interrompida, limitada ou suspensa para atualizações, modificações ou qualquer ação necessária ao seu bom funcionamento.</p>
+                                            <p><strong>2. Links</strong>
+                                            <br>
+                                            Todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. 
+                                            A inclusão de qualquer link não implica endosso por do site. 
+                                             O uso de qualquer site vinculado é por conta e risco do usuário.</p>
+                                             <p><strong>3. Precisão dos materiais</strong>
+                                            <br>
+                                            Os materiais exibidos no site da podem incluir erros técnicos, tipográficos ou fotográficos. 
+                                            Não garante que qualquer material em seu site seja preciso, completo ou atual. 
+                                            Pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. 
+                                            No entanto, não se compromete a atualizar os materiais..</p>
+                                       </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+            </div>
+        </section>
+
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>2020 UCS</span></strong>. Projeto integrador IV-B
+            </div>
+        </div>
+    </footer>
+    <!-- fim do footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contato.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+.container-fluid2 {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-contato {
+    background: url("../img/fundo-1.jpg") top center;
+    background-size: cover;
+    padding: 25px 10px 20px 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    color: #050505;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+#corpo {
+    margin: 20px 100px;
+}
+
+#formulario {
+    text-align: left;
+    margin: 10px 10px;
+}
+
+#formulario .direita {
+    float: right;
+    width: 50%;
+}
+
+#formulario .esquerda {
+    float: left;
+    width: 50%;
+}
+
+#formulario label {
+    line-height: 30px;
+    text-align: left;
+    color: #1b1b1b;
+    margin-top: 8px;
+}
+
+#formulario input {
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background: #E8EFE4;
+    border-radius: 4px;
+    color: #363636;
+}
+
+#horarios {
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background: #E8EFE4;
+    border-radius: 4px;
+    color: #363636;
+}
+
+#formulario select {
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background: #E8EFE4;
+    border-radius: 4px;
+    color: #363636;
+}
+
+#formulario .botao {
+    cursor: pointer;
+    text-align: left;
+    margin: 35px 0 0 0;
+    color: rgb(255, 255, 255);
+    background-color: #3100e0;
+}
+
+#formulario .botao:hover {
+    background-color: #03044d;
+}
+
+#copy {
+    color: #363636;
+    text-align: center;
+    margin: 50px 150px;
+}
+
+
+/* Popup box BEGIN */
+
+.termos {
+    color: rgb(204, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+#popup {
+    max-width: 980px;
+    width: 100%;
+    max-height: 620px;
+    height: 80%;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    margin: 120px auto;
+    border-radius: 8px;
+}
+
+#popup p {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#popup-recuperar {
+    max-width: 520px;
+    width: 100%;
+    max-height: 320px;
+    height: 80%;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    margin: 120px auto;
+    border-radius: 8px;
+}
+
+#popup-recuperar code {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #000;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.page-header h2 {
+    margin-top: 20px;
+}
+
+#check-termo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+#tipo-cadastro {
+    width: 200px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+
+#imagem {
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: auto auto 250px 150px;
+    padding: 10px;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-container-4 {
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    font-size: 20px;
+}
