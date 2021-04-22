@@ -19,7 +19,7 @@
 
 .login__container {
     min-height: 400px;
-    width: 320px;
+    width: 350px;
     background-color: var(--white);
     box-sizing: border-box;
     padding: 32px;
