@@ -136,28 +136,3 @@
 
 
 })(jQuery);
-
-// validar login
-
-var usuarios = [
-    { "login": "bcf", "senha": "bcf" },
-    { "login": "mamae", "senha": "abacaxi" },
-    { "login": "papai", "senha": "melancia" },
-];
-
-function Login() {
-    var done = 0;
-    var usuario = document.getElementsByName('usuario')[0].value;
-    usuario = usuario.toLowerCase();
-    var senha = document.getElementsByName('senha')[0].value;
-    seha = senha.toLowerCase();
-
-    if (usuario == "j.j.shady@hotmail.com" && senha == 123) {
-        window.location = "adm2.html";
-        done = 1;
-    }
-    if (done == 0) {
-        alert("Dados incorretos, tente novamente");
-
-    }
-}
