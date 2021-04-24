@@ -610,6 +610,14 @@ h6,
     font-family: "Lato", sans-serif;
 }
 
+.img-fluid-bandeira {
+    align-items: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
 
 /*================ Footer ======================*/
 
