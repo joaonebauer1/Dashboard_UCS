@@ -1,3 +1,31 @@
+:root {
+    --input-error: red;
+    --button-disabled: #acacac;
+    --button-success: rgb(18, 151, 107);
+    --white: #fff;
+    --black: #303030;
+    --gray: #929292;
+    --light-gray: #cfcfcf;
+    --border-height: 3px;
+}
+
+.btnRegister:disabled {
+    background: var(--button-disabled);
+    cursor: not-allowed;
+}
+
+.btnRegister:hover {
+    background-position: right;
+}
+
+.btnRegister.success {
+    background: var(--button-success);
+}
+
+.btnRegister.error {
+    background: var(--input-error);
+}
+
 .row-2 {
     display: flex;
     flex-wrap: wrap;
